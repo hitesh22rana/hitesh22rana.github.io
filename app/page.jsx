@@ -1,4 +1,4 @@
-import { Wrapper } from "@/components/Wrapper";
+import { Wrapper } from "@/components/shared/Wrapper";
 import { Navbar } from "@/components/Navbar";
 import { Spirograph } from '@/components/Spirograph';
 import { About } from "@/components/About";

@@ -5,6 +5,8 @@
 :root {
   --primary: #1B1B1B;
   --secondary: #434343;
+  --tertiary: #9D9D9D;
+  --hover-bg: #F8F8F8;
 }
 
 *,
