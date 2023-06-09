@@ -21,7 +21,7 @@ const Timeline = ({
                     className="absolute top-0 left-0 w-4 h-4 bg-black rounded-full -translate-x-[7px] translate-y-4"
                 />
 
-                <div className="w-full h-min px-4 py-3 md:mx-2 mx-0 rounded-md hover:bg-hover-bg transition-colors delay-[50] cursor-pointer">
+                <div className="w-full h-min px-4 py-3 md:mx-2 mx-0 rounded-md bg-inherit hover:bg-hover-bg cursor-pointer">
                     <h5 className="text-lg font-semibold">{position}</h5>
                     <a href={website} target='_blank' rel='noreferrer' className='text-tertiary font-semibold'>
                         {company}
@@ -52,6 +52,7 @@ export const Experience = () => {
         <SectionWrapper
             id="experience"
             heading="Experience"
+            subheading="The linear view of some milestones and notable moments that happened so far."
         >
             <div className="flex flex-col items-start justify-between w-full">
                 {

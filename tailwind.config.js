@@ -11,6 +11,8 @@ module.exports = {
         "primary": "var(--primary)",
         "secondary": "var(--secondary)",
         "tertiary": "var(--tertiary)",
+      },
+      backgroundImage: {
         "hover-bg": "var(--hover-bg)",
       },
     },
