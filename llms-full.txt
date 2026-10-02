@@ -1,0 +1,55 @@
+# Hitesh Rana
+
+> Backend engineer at Mercari building backend systems and developer tools, mostly in Go.
+
+Source: https://hitesh22rana.github.io/
+
+## About
+
+I build backend systems and developer tools, mostly in Go. Currently at Mercari , working on fraud and risk systems.
+I'm interested in distributed systems, database internals, and making software easier to operate. Outside work, I tend to build things around scheduling, messaging, and the tools I wish I had.
+
+## Projects
+
+- [chronoverse](https://github.com/hitesh22rana/chronoverse): A distributed job scheduler and orchestrator for your own infrastructure. Built around durable execution and failure recovery.
+- [jsonlogic2sql](https://github.com/hitesh22rana/jsonlogic2sql): A JsonLogic-to-SQL transpiler supporting BigQuery, Spanner, PostgreSQL, DuckDB, and ClickHouse.
+- [mq](https://github.com/hitesh22rana/mq): A pull-based gRPC message broker with batched reads, write-ahead logging, and consumer-controlled backpressure.
+- [sourcecollector](https://github.com/hitesh22rana/sourcecollector): A small CLI that bundles source files into one text file to share codebase context with AI tools.
+- [soundscripter](https://github.com/hitesh22rana/SoundScripter): Automates audio and video transcription through a distributed workflow.
+
+## Work, so far
+
+### Mercari
+
+#### Software Engineer II
+
+Dec 2025 - present | Bengaluru, India
+
+- Worked on the production fraud and risk rule engine at peak traffic of 10,000 payments and 1.5 million rule evaluations per minute. Implemented dynamic JsonLogic evaluation, on-demand feature fetching, dry runs, and explainable decisions.
+- Expanded the engine to multi-tenant item-risk detection, supporting 1,000 listings and up to 2 million category-filtered rule evaluations per minute.
+- Built jsonlogic2sql, now used in production for historical rule simulation in BigQuery, reducing pre-release validation effort by 80%.
+- Built scheduled Dataflow ETL and BigQuery jobs for risk data pipelines, supporting online decisions and offline analytics alongside Flink and Cloud Spanner.
+- Delivered real-time Rule Analytics across 200+ active rules. Established POS terminal data as a warehouse source of truth, eliminating duplicate data handling across 5+ services.
+
+#### Software Engineer I
+
+Oct 2024 - Nov 2025 | Tokyo, Japan
+
+- Architected high-volume asynchronous order-cancellation processing, cutting latency by 40%, preventing duplicate operations, and saving ¥7.4 million per month through improved fraud detection.
+- Optimized a high-traffic microservice with caching, reducing database query load by 85% and saving $40,000 per month in cloud infrastructure costs.
+- Owned an internal real-time abuse risk scoring service from development through delivery, maintaining p99 latency under 100 ms. Automated investigation workflows, saving analysts up to 5 minutes per case.
+- Consolidated and decommissioned anti-fraud rules in Flink deployments, reducing infrastructure costs by 30% while improving reliability.
+
+#### Software Engineer Intern
+
+Feb - Apr 2024 | Tokyo, Japan
+
+- Migrated legacy Spinnaker pipelines to GitOps with Argo CD, Flux, and Tekton, reducing deployment time by 40% and accelerating feature delivery across teams.
+- Built gRPC-based synchronization to update stale task statuses across distributed services, improving data consistency and reducing process disruptions by 75%.
+
+## Contact
+
+- [GitHub](https://github.com/hitesh22rana)
+- [LinkedIn](https://www.linkedin.com/in/hitesh22rana/)
+- [Email](mailto:hitesh22rana@gmail.com)
+- [Resume](./resume.pdf)
