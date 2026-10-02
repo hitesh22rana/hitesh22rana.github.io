@@ -55,7 +55,7 @@ button svg { grid-area: 1 / 1; transition: transform 250ms var(--ease-out), opac
 [data-theme="dark"] .moon { opacity: 0; transform: rotate(60deg) scale(.65); }
 [data-theme="dark"] .sun { opacity: 1; transform: rotate(0) scale(1); }
 section { scroll-margin-top: 2rem; margin-bottom: 4rem; }
-.intro { padding-top: 3.5rem; margin-bottom: 4.25rem; }
+.intro { padding-top: 3.5rem; }
 .date { font-family: var(--font); color: var(--muted); }
 h1, h2, h3 { color: var(--strong); }
 h1 { font: 560 clamp(2rem, 5vw, 2.65rem)/1.2 var(--font); letter-spacing: -.055em; margin: 0 0 1.75rem; }
@@ -73,11 +73,20 @@ h3 { font-size: 1rem; line-height: 1.6; font-weight: 600; margin: 0 0 .375rem; }
 .projects h3 { font-family: var(--font); font-weight: 550; letter-spacing: -.035em; }
 .projects h3 a { text-decoration: none; }
 .projects p { margin-bottom: .375rem; }
-.more-link { font-size: .875rem; }
-.experience li { margin-bottom: 1.5rem; }
-.role-heading { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: .125rem 1rem; }
-.date { font-size: .75rem; }
-.experience p { font-size: .9375rem; }
+.more-link { display: block; width: fit-content; margin-left: auto; font-size: .875rem; }
+.company { margin-bottom: 1.5rem; }
+.company a { text-decoration: none; }
+.experience { padding-left: .35rem; }
+.experience > li { position: relative; padding: 0 0 1.75rem 1.75rem; }
+.experience > li:not(:last-child)::before { content: ""; position: absolute; left: 0; top: .8rem; bottom: -.8rem; width: 1px; background: var(--border); }
+.experience > li::after { content: ""; position: absolute; left: -.2rem; top: .6rem; width: .45rem; height: .45rem; border-radius: 50%; background: var(--muted); }
+.experience > li:last-child { padding-bottom: 0; }
+.experience h4 { margin: 0 0 .25rem; color: var(--strong); font-size: 1rem; font-weight: 550; line-height: 1.6; }
+.contributions { margin: .875rem 0 0; padding-left: 1.1rem; font-size: .9375rem; line-height: 1.7; list-style: disc; }
+.contributions li { padding-left: .15rem; margin-bottom: .5rem; }
+.contributions li:last-child { margin-bottom: 0; }
+.contributions li::marker { color: var(--muted); }
+.experience .date, .location { font-size: .875rem; color: var(--muted); margin: 0; }
 .muted { color: var(--muted); font-weight: 400; }
 footer { border-top: 1px solid var(--border); padding: 1.5rem 0 2rem; color: var(--muted); font-size: .8125rem; }
 .skip-link { position: absolute; top: -5rem; left: 1rem; padding: .5rem 1rem; background: var(--background); z-index: 1; }
@@ -89,8 +98,6 @@ footer { border-top: 1px solid var(--border); padding: 1.5rem 0 2rem; color: var
   .intro { padding-top: 2rem; }
   h1 { letter-spacing: -.055em; }
   section { margin-bottom: 3rem; }
-  .role-heading { display: block; }
-  .date { display: block; margin-bottom: .375rem; }
 }
 
 /* Native scrolling stays interruptible and preserves anchor URLs. */

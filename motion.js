@@ -14,6 +14,6 @@
     }
   }, { threshold: 0.12 });
 
-  document.querySelectorAll('.section-heading, .projects li, .experience li, .more-link, footer')
+  document.querySelectorAll('.section-heading, .projects li, .experience > li, .more-link, footer')
     .forEach((element) => observer.observe(element));
 })();
