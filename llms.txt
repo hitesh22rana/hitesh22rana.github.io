@@ -1,0 +1,16 @@
+# Hitesh Rana
+
+> Hitesh Rana is a backend engineer at Mercari working on fraud and risk systems. His portfolio covers distributed systems, database internals, Go developer tools, open-source projects, and engineering contributions.
+
+This is a single-page personal portfolio. The work history and outcomes below are self-reported professional information, not independent benchmarks. The website is the source for the accompanying Markdown snapshot.
+
+## Portfolio
+
+- [Full portfolio in Markdown](./llms-full.txt): Biography, all five project descriptions, Mercari roles, dates, locations, and contribution metrics.
+- [Website](https://hitesh22rana.github.io/): Original portfolio with about, projects, and work sections.
+- [Resume](./resume.pdf): Downloadable professional resume.
+
+## Optional
+
+- [GitHub](https://github.com/hitesh22rana): Source repositories and open-source work.
+- [LinkedIn](https://www.linkedin.com/in/hitesh22rana/): Professional profile.
