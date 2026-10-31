@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hitesh Rana — Portfolio updates</title>
+    <link>https://hitesh22rana.github.io/</link>
+    <description>Projects and engineering updates from Hitesh Rana.</description>
+    <language>en</language>
+    <atom:link href="https://hitesh22rana.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Portfolio updates via RSS</title>
+      <link>https://hitesh22rana.github.io/</link>
+      <guid isPermaLink="false">https://hitesh22rana.github.io/#rss-launch-2026-10-31</guid>
+      <pubDate>Sat, 31 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Follow this feed for future project and portfolio updates. Explore my current projects and work history on the website.</description>
+    </item>
+  </channel>
+</rss>

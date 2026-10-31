@@ -12,5 +12,6 @@ This is a single-page personal portfolio. The work history and outcomes below ar
 
 ## Optional
 
+- [RSS feed](./feed.xml): Subscribe to project and portfolio updates.
 - [GitHub](https://github.com/hitesh22rana): Source repositories and open-source work.
 - [LinkedIn](https://www.linkedin.com/in/hitesh22rana/): Professional profile.
