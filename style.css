@@ -120,17 +120,6 @@ a span[aria-hidden] { display: inline-block; transition: transform 200ms var(--e
   a:hover span[aria-hidden] { transform: translate(2px, -2px); }
   button:hover { transform: rotate(-8deg); }
 }
-@media (prefers-reduced-motion: no-preference) {
-  header { animation: arrive 500ms var(--ease-out) both; }
-  .intro > * { animation: arrive 650ms var(--ease-out) both; }
-  .intro > :nth-child(2) { animation-delay: 50ms; }
-  .intro > :nth-child(3) { animation-delay: 100ms; }
-  .intro > :nth-child(4) { animation-delay: 150ms; }
-}
-@keyframes arrive {
-  from { opacity: 0; transform: translateY(12px); }
-  to { opacity: 1; transform: translateY(0); }
-}
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   button, button svg, .social-links a, a span[aria-hidden], nav a::after { transition: none; }
