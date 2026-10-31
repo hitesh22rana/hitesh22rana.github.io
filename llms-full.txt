@@ -53,3 +53,4 @@ Feb - Apr 2024 | Tokyo, Japan
 - [LinkedIn](https://www.linkedin.com/in/hitesh22rana/)
 - [Email](mailto:hitesh22rana@gmail.com)
 - [Resume](./resume.pdf)
+- [RSS feed](./feed.xml)

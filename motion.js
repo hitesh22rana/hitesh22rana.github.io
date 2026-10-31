@@ -8,12 +8,12 @@
       observer.unobserve(entry.target);
       if (reduced.matches) continue;
       entry.target.animate(
-        [{ opacity: 0, transform: 'translateY(12px)' }, { opacity: 1, transform: 'translateY(0)' }],
-        { duration: 500, easing: 'cubic-bezier(0.23, 1, 0.32, 1)' },
+        [{ opacity: 0 }, { opacity: 1 }],
+        { duration: 500, easing: getComputedStyle(document.documentElement).getPropertyValue('--ease-out').trim() },
       );
     }
   }, { threshold: 0.12 });
 
-  document.querySelectorAll('.section-heading, .projects li, .experience > li, .more-link, footer')
+  document.querySelectorAll('header, .intro > *, .section-heading, .projects > li, .company, .experience > li, .more-link, footer')
     .forEach((element) => observer.observe(element));
 })();

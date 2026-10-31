@@ -8,21 +8,22 @@
 
   document.addEventListener('DOMContentLoaded', () => {
     const button = document.getElementById('theme-toggle');
-    const updateLabel = () => {
+    const updateControls = () => {
+      document.querySelector('link[rel="icon"]').setAttribute('href', root.dataset.theme === 'dark' ? 'favicon-dark.svg' : 'favicon.svg');
       button.setAttribute('aria-label', `Switch to ${root.dataset.theme === 'dark' ? 'light' : 'dark'} theme`);
     };
-    updateLabel();
+    updateControls();
     button.hidden = false;
     button.addEventListener('click', () => {
       preference = root.dataset.theme === 'dark' ? 'light' : 'dark';
       root.dataset.theme = preference;
       try { localStorage.setItem('theme', preference); } catch { /* Toggle still works without persistence. */ }
-      updateLabel();
+      updateControls();
     });
     system.addEventListener('change', () => {
       if (!preference) {
         root.dataset.theme = system.matches ? 'dark' : 'light';
-        updateLabel();
+        updateControls();
       }
     });
   });

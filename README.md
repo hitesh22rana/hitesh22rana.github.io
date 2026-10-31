@@ -13,3 +13,5 @@ Hosted on GitHub Pages from the root of the `main` branch. No build step is requ
 `index.html` contains canonical, social-card, and Person/ProfilePage metadata. `social-preview.png` is used only for link previews. `robots.txt` and `sitemap.xml` expose the single canonical page; section anchors are not separate pages.
 
 `llms.txt` links to a Markdown snapshot in `llms-full.txt`. Update that snapshot whenever the biography, projects, or work history changes. If the JSON-LD changes, update its SHA-256 hash in the Content Security Policy too.
+
+Subscribe to portfolio updates at [feed.xml](https://hitesh22rana.github.io/feed.xml). Add new RSS items with unique GUIDs and publication dates when publishing updates; the feed is maintained alongside this static site.
