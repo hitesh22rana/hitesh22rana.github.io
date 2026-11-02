@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://hitesh22rana.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Three AI-assisted experiments</title>
+      <link>https://hitesh22rana.github.io/#experiments</link>
+      <guid isPermaLink="false">https://hitesh22rana.github.io/#ai-experiments-2026-11-03</guid>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Explore Aux, a shared music queue; Reachsmith, a personal outreach workspace; and Surveillance System, a local camera dashboard built on Frigate.</description>
+    </item>
+    <item>
       <title>Portfolio updates via RSS</title>
       <link>https://hitesh22rana.github.io/</link>
       <guid isPermaLink="false">https://hitesh22rana.github.io/#rss-launch-2026-10-31</guid>
