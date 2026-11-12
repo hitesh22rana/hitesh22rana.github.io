@@ -17,7 +17,11 @@ I'm interested in distributed systems, database internals, and making software e
 - [sourcecollector](https://github.com/hitesh22rana/sourcecollector): A small CLI that bundles source files into one text file to share codebase context with AI tools.
 - [soundscripter](https://github.com/hitesh22rana/SoundScripter): Automates audio and video transcription through a distributed workflow.
 
-Open source: [interval-based WAL sync](https://github.com/rosedblabs/wal/pull/44) (merged), a [Meilisearch Go mTLS report](https://github.com/meilisearch/meilisearch-go/issues/719) ([server issue](https://github.com/meilisearch/meilisearch/issues/5898)), and a [single-image SigNoz setup proposal](https://github.com/SigNoz/signoz/issues/7107).
+### Open source
+
+- Added [interval-based syncing to rosedblabs/wal](https://github.com/rosedblabs/wal/pull/44) (merged).
+- Reported [Go mTLS interoperability issues in Meilisearch](https://github.com/meilisearch/meilisearch-go/issues/719) ([server report](https://github.com/meilisearch/meilisearch/issues/5898)).
+- Proposed [a single-image SigNoz setup](https://github.com/SigNoz/signoz/issues/7107) for quick testing.
 
 ## Work, so far
 
