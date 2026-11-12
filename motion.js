@@ -14,6 +14,6 @@
     }
   }, { threshold: 0.12 });
 
-  document.querySelectorAll('header, .intro > *, .experiment-note, .section-heading, .projects > li, .company, .experience > li, .more-link, footer')
+  document.querySelectorAll('header, .intro > *, .experiment-note, .section-heading, .projects > li, .company, .experience > li, .open-source, .more-link, footer')
     .forEach((element) => observer.observe(element));
 })();

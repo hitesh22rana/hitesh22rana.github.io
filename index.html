@@ -84,8 +84,8 @@
         <nav aria-label="Main navigation">
           <a href="#about">about</a>
           <a href="#projects">projects</a>
-          <a href="#experiments">experiments</a>
           <a href="#work">work</a>
+          <a href="#experiments">experiments</a>
         </nav>
       </header>
 
@@ -170,23 +170,14 @@
         <section id="projects" aria-labelledby="projects-heading">
           <div class="section-heading"><h2 id="projects-heading">Things I've built</h2></div>
           <ul class="projects">
-            <li><h3><a href="https://github.com/hitesh22rana/chronoverse">chronoverse <span aria-hidden="true">↗</span></a></h3><p>A distributed job scheduler and orchestrator for your own infrastructure. Built around durable execution and failure recovery.</p></li>
+            <li><h3><a href="https://github.com/hitesh22rana/chronoverse">chronoverse <span aria-hidden="true">↗</span></a></h3><p>A distributed job scheduler and orchestrator for your own infrastructure. Supports 10,000+ concurrent executions with 99.9% reliability, using durable job leases, idempotency keys, and a transactional outbox.</p></li>
             <li><h3><a href="https://github.com/hitesh22rana/jsonlogic2sql">jsonlogic2sql <span aria-hidden="true">↗</span></a></h3><p>A JsonLogic-to-SQL transpiler supporting BigQuery, Spanner, PostgreSQL, DuckDB, and ClickHouse.</p></li>
             <li><h3><a href="https://github.com/hitesh22rana/mq">mq <span aria-hidden="true">↗</span></a></h3><p>A pull-based gRPC message broker with batched reads, write-ahead logging, and consumer-controlled backpressure.</p></li>
             <li><h3><a href="https://github.com/hitesh22rana/sourcecollector">sourcecollector <span aria-hidden="true">↗</span></a></h3><p>A small CLI that bundles source files into one text file to share codebase context with AI tools.</p></li>
             <li><h3><a href="https://github.com/hitesh22rana/SoundScripter">soundscripter <span aria-hidden="true">↗</span></a></h3><p>Automates audio and video transcription through a distributed workflow.</p></li>
           </ul>
+          <p class="open-source">Open source: <a href="https://github.com/rosedblabs/wal/pull/44">interval-based WAL sync</a> (merged), a <a href="https://github.com/meilisearch/meilisearch-go/issues/719">Meilisearch Go mTLS report</a> (<a href="https://github.com/meilisearch/meilisearch/issues/5898">server issue</a>), and a <a href="https://github.com/SigNoz/signoz/issues/7107">single-image SigNoz setup proposal</a>.</p>
           <a class="more-link" href="https://github.com/hitesh22rana?tab=repositories">More on GitHub <span aria-hidden="true">↗</span></a>
-        </section>
-
-        <section id="experiments" aria-labelledby="experiments-heading">
-          <div class="section-heading"><h2 id="experiments-heading">AI experiments</h2></div>
-          <p class="experiment-note">Built with AI. Called experiments because “production-ready” is still a hypothesis.</p>
-          <ul class="projects">
-            <li><h3><a href="https://github.com/hitesh22rana/aux">aux <span aria-hidden="true">↗</span></a></h3><p>A shared music queue where friends join a room, request songs, and vote on what plays next. The host's music app handles playback.</p></li>
-            <li><h3><a href="https://github.com/hitesh22rana/reachsmith">reachsmith <span aria-hidden="true">↗</span></a></h3><p>A personal outreach workspace for organizing contacts, drafting reusable messages, suggesting work email patterns, and tracking follow-ups.</p></li>
-            <li><h3><a href="https://github.com/hitesh22rana/surveillance-system">surveillance-system <span aria-hidden="true">↗</span></a></h3><p>A local-first camera dashboard built on Frigate, with live views, object detection, and manual review of saved snapshots.</p></li>
-          </ul>
         </section>
 
         <section id="work" aria-labelledby="work-heading">
@@ -226,6 +217,16 @@
               </ul>
             </li>
           </ol>
+        </section>
+
+        <section id="experiments" aria-labelledby="experiments-heading">
+          <div class="section-heading"><h2 id="experiments-heading">AI experiments</h2></div>
+          <p class="experiment-note">Built with AI. Called experiments because “production-ready” is still a hypothesis.</p>
+          <ul class="projects">
+            <li><h3><a href="https://github.com/hitesh22rana/aux">aux <span aria-hidden="true">↗</span></a></h3><p>A shared music queue where friends join a room, request songs, and vote on what plays next. The host's music app handles playback.</p></li>
+            <li><h3><a href="https://github.com/hitesh22rana/reachsmith">reachsmith <span aria-hidden="true">↗</span></a></h3><p>A personal outreach workspace for organizing contacts, drafting reusable messages, suggesting work email patterns, and tracking follow-ups.</p></li>
+            <li><h3><a href="https://github.com/hitesh22rana/surveillance-system">surveillance-system <span aria-hidden="true">↗</span></a></h3><p>A local-first camera dashboard built on Frigate, with live views, object detection, and manual review of saved snapshots.</p></li>
+          </ul>
         </section>
       </main>
 
