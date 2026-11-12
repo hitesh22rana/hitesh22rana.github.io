@@ -63,8 +63,11 @@ Feb - Apr 2024 | Tokyo, Japan
 Built with AI. Called experiments because “production-ready” is still a hypothesis.
 
 - [aux](https://github.com/hitesh22rana/aux): A shared music queue where friends join a room, request songs, and vote on what plays next. The host's music app handles playback.
+  Stack: TypeScript · Next.js · React · SQLite · Redis
 - [reachsmith](https://github.com/hitesh22rana/reachsmith): A personal outreach workspace for organizing contacts, drafting reusable messages, suggesting work email patterns, and tracking follow-ups.
+  Stack: TypeScript · Next.js · PostgreSQL · Redis · BullMQ
 - [surveillance-system](https://github.com/hitesh22rana/surveillance-system): A local-first camera dashboard built on Frigate, with live views, object detection, and manual review of saved snapshots.
+  Stack: Python · Frigate · Docker · nginx · PyTorch
 
 ## Contact
 
