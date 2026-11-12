@@ -11,19 +11,17 @@ I'm interested in distributed systems, database internals, and making software e
 
 ## Projects
 
-- [chronoverse](https://github.com/hitesh22rana/chronoverse): A distributed job scheduler and orchestrator for your own infrastructure. Built around durable execution and failure recovery.
+- [chronoverse](https://github.com/hitesh22rana/chronoverse): A distributed job scheduler and orchestrator for your own infrastructure. Supports 10,000+ concurrent executions with 99.9% reliability, using durable job leases, idempotency keys, and a transactional outbox for failure recovery.
 - [jsonlogic2sql](https://github.com/hitesh22rana/jsonlogic2sql): A JsonLogic-to-SQL transpiler supporting BigQuery, Spanner, PostgreSQL, DuckDB, and ClickHouse.
 - [mq](https://github.com/hitesh22rana/mq): A pull-based gRPC message broker with batched reads, write-ahead logging, and consumer-controlled backpressure.
 - [sourcecollector](https://github.com/hitesh22rana/sourcecollector): A small CLI that bundles source files into one text file to share codebase context with AI tools.
 - [soundscripter](https://github.com/hitesh22rana/SoundScripter): Automates audio and video transcription through a distributed workflow.
 
-## AI experiments
+### Open source
 
-Built with AI. Called experiments because “production-ready” is still a hypothesis.
-
-- [aux](https://github.com/hitesh22rana/aux): A shared music queue where friends join a room, request songs, and vote on what plays next. The host's music app handles playback.
-- [reachsmith](https://github.com/hitesh22rana/reachsmith): A personal outreach workspace for organizing contacts, drafting reusable messages, suggesting work email patterns, and tracking follow-ups.
-- [surveillance-system](https://github.com/hitesh22rana/surveillance-system): A local-first camera dashboard built on Frigate, with live views, object detection, and manual review of saved snapshots.
+- Added [interval-based syncing to rosedblabs/wal](https://github.com/rosedblabs/wal/pull/44) (merged).
+- Reported [Go mTLS interoperability issues in Meilisearch](https://github.com/meilisearch/meilisearch-go/issues/719) ([server report](https://github.com/meilisearch/meilisearch/issues/5898)).
+- Proposed [a single-image SigNoz setup](https://github.com/SigNoz/signoz/issues/7107) for quick testing.
 
 ## Work, so far
 
@@ -54,6 +52,14 @@ Feb - Apr 2024 | Tokyo, Japan
 
 - Migrated legacy Spinnaker pipelines to GitOps with Argo CD, Flux, and Tekton, reducing deployment time by 40% and accelerating feature delivery across teams.
 - Built gRPC-based synchronization to update stale task statuses across distributed services, improving data consistency and reducing process disruptions by 75%.
+
+## AI experiments
+
+Built with AI. Called experiments because “production-ready” is still a hypothesis.
+
+- [aux](https://github.com/hitesh22rana/aux): A shared music queue where friends join a room, request songs, and vote on what plays next. The host's music app handles playback.
+- [reachsmith](https://github.com/hitesh22rana/reachsmith): A personal outreach workspace for organizing contacts, drafting reusable messages, suggesting work email patterns, and tracking follow-ups.
+- [surveillance-system](https://github.com/hitesh22rana/surveillance-system): A local-first camera dashboard built on Frigate, with live views, object detection, and manual review of saved snapshots.
 
 ## Contact
 

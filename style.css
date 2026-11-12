@@ -74,6 +74,7 @@ h3 { font-size: 1rem; line-height: 1.6; font-weight: 600; margin: 0 0 .375rem; }
 .projects h3 a { text-decoration: none; }
 .projects p { margin-bottom: .375rem; }
 .experiment-note { margin-bottom: 1.75rem; color: var(--muted); font-size: .9375rem; }
+.open-source { margin-bottom: 1.5rem; }
 .more-link { display: block; width: fit-content; margin-left: auto; font-size: .875rem; }
 .company { margin-bottom: 1.5rem; }
 .company a { text-decoration: none; }
