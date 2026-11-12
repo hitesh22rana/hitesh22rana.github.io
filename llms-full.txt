@@ -12,7 +12,7 @@ I'm interested in distributed systems, database internals, and making software e
 ## Projects
 
 - [chronoverse](https://github.com/hitesh22rana/chronoverse): A distributed job scheduler and orchestrator for your own infrastructure. Supports 10,000+ concurrent executions with 99.9% reliability, using durable job leases, idempotency keys, and a transactional outbox for failure recovery.
-  Stack: Go · gRPC · Kafka · PostgreSQL · Kubernetes
+  Stack: Go · gRPC · Next.js · Kafka · PostgreSQL · Redis · ClickHouse · Meilisearch · Docker · Kubernetes · Distributed Systems
 - [jsonlogic2sql](https://github.com/hitesh22rana/jsonlogic2sql): A JsonLogic-to-SQL transpiler supporting BigQuery, Spanner, PostgreSQL, DuckDB, and ClickHouse. Used in production at Mercari for historical rule simulation, cutting pre-release validation effort by 80%.
   Stack: Go · JsonLogic · SQL
 - [mq](https://github.com/hitesh22rana/mq): A pull-based gRPC message broker with batched reads, write-ahead logging, and consumer-controlled backpressure.
