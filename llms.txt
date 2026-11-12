@@ -6,7 +6,7 @@ This is a single-page personal portfolio. Project metrics, work history, and out
 
 ## Portfolio
 
-- [Full portfolio in Markdown](./llms-full.txt): Biography, five backend projects, open-source contributions, Mercari roles with contribution metrics, and three AI-assisted experiments.
+- [Full portfolio in Markdown](./llms-full.txt): Biography, five backend projects with technology stacks and production impact, open-source contributions, Mercari roles, and three AI-assisted experiments.
 - [Website](https://hitesh22rana.github.io/): Original portfolio with about, projects, work, and experiments sections.
 - [Resume](./resume.pdf): Downloadable professional resume.
 

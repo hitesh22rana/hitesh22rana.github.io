@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://hitesh22rana.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Project stacks and production impact</title>
+      <link>https://hitesh22rana.github.io/#projects</link>
+      <guid isPermaLink="false">https://hitesh22rana.github.io/#project-stack-details-2026-11-12</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Added concise technology stacks to the main projects and jsonlogic2sql's production rule-simulation impact at Mercari, with clearer wording for the Meilisearch mTLS report.</description>
+    </item>
+    <item>
       <title>Work and open source, up front</title>
       <link>https://hitesh22rana.github.io/#projects</link>
       <guid isPermaLink="false">https://hitesh22rana.github.io/#work-open-source-2026-11-12</guid>
